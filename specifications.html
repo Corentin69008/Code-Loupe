@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+  <title>Code Loupe - Un Test pour montrer le bouton</title>
+  <meta charset="utf-8">
+</head>
+<body>
+
+  <header>
+    <h1>Code Loupe</h1>
+    <p>Ceci est une page exemple pour montrer ce que l'on souhaiterais avoir</p>
+  </header>
+
+  <main>
+    <h1 id="nomProjet">Ceci est le nom d'un projet sur github</h1>
+    <button id="nouveauProjet">Je veux en voir un autre</button>
+  </main>
+
+  <script>
+
+    nouveauProjet.addEventListener("click", function () {
+          nomProjet.innerHTML = `Un nouvau nom ${Math.round((Math.random() * 100))} `
+        })
+
+
+  </script>
+</body>
