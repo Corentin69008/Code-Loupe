@@ -8,13 +8,26 @@ En guise de spécification, nous utilisons la page html `specifications.html`. D
 
 ## Installation
 
-près requis installer python
+## prérequis 
+
+installer python: https://www.python.org/downloads/ 
+installer Flask: https://flask.palletsprojects.com/en/2.0.x/
 
 Comment crée un virtuelle  env
 
+## Commande
+
 ```
-pip install
+pip install flask
+$env:FLASK_APP=""
+flask run
 ```
+
+```
+python -m pip install --upgrade pip
+python -m flask --version
+```
+
 
 Comment on démarre le serveur 
 >>>>>>> 7b0c3c6 (mise a jour du README)
