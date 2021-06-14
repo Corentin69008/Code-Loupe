@@ -16,7 +16,7 @@ installer Flask: https://flask.palletsprojects.com/en/2.0.x/
 Comment crée un virtuelle  env
 
 ```
-pytjon -m venv /path/to/new/virtual/environmment
+python -m venv /path/to/new/virtual/environmment
 ```
 
 ```
