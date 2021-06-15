@@ -38,5 +38,8 @@ python -m flask --version
 
 Comment on démarre le serveur
 
+on peut démarer le serveur avec une adresse URL comme par exemple:
+https://.../...
+
 
 >>>>>>> 7b0c3c6 (mise a jour du README)
